@@ -1,0 +1,231 @@
+body{
+    margin: 0;
+    height: 100vh;
+    background-color: #1F2225;
+    position: relative;
+}
+header{
+    position: relative;
+    height: 8vh;
+    border-bottom: solid 2px;
+    border-color: #B3AFAC;
+}
+header h1:first-child{
+    color: #B3AFAC;
+    font-family: 'Sail', cursive;
+    position: absolute;
+    left: 3%;
+    top:-3px;
+}
+header p:nth-child(2){
+    position: absolute;
+    left:9%;
+    color: #B3AFAC;
+    font-family: 'Mako', sans-serif;
+    top:15px;
+}
+header p:nth-child(3){
+    position: absolute;
+    left:61%;
+    color: #B3AFAC;
+    font-family: 'Mako', sans-serif;
+    top:15px;
+}
+header p:nth-child(4){
+    position: absolute;
+    left:68%;
+    color: #B3AFAC;
+    font-family: 'Mako', sans-serif;
+    top:15px;
+}
+header p:nth-child(5){
+    position: absolute;
+    left:78%;
+    color: #B3AFAC;
+    font-family: 'Mako', sans-serif;
+    top:15px;
+}
+header p:nth-child(6){
+    position: absolute;
+    color: #B3AFAC;
+    font-family: 'Mako', sans-serif;
+    top:15px;
+    left:85%;
+}
+header div:nth-child(7){
+    height: 2px;
+    width: 30px;
+    border: solid 1px #B3AFAC;
+    position: absolute;
+    right: 80px;
+    top:36px;
+}
+header div:nth-child(8){
+    height: 2px;
+    width: 30px;
+    border: solid 1px #B3AFAC;
+    position: absolute;
+    right: 80px;
+    top:43px;
+}
+header div:nth-child(9){
+    border-bottom: solid 2px #B3AFAC;
+    width: 25px;
+    position: absolute;
+    top:8vh;
+    left:61.6%;
+}
+header p:nth-child(3):hover{
+    color: white;
+}
+header p:nth-child(3):hover~div:nth-child(9){
+    border-color: orange;
+}
+header div:nth-child(10){
+    border-bottom: solid 2px #B3AFAC;
+    width: 25px;
+    position: absolute;
+    top:8vh;
+    left:70%;
+}
+header p:nth-child(4):hover{
+    color:white;
+}
+header p:nth-child(4):hover~div:nth-child(10){
+    border-color: orange;   
+}
+header p:nth-child(5):hover{
+    color:white;
+}
+header div:nth-child(11){
+    border-bottom: solid 2px #B3AFAC;
+    width: 25px;
+    position: absolute;
+    top:8vh;
+    left:78.8%;
+}
+header p:nth-child(5):hover~div:nth-child(11){
+    border-color: orange; 
+}
+header div:nth-child(12){
+    border-bottom: solid 2px #B3AFAC;
+    width: 25px;
+    position: absolute;
+    top:8vh;
+    left:86%;
+}
+header p:nth-child(6):hover{
+    color: white;
+}
+header p:nth-child(6):hover~div:nth-child(12){
+    border-color: orange;
+}
+section{
+    position: relative;
+    height: 90px;
+}
+img:first-child{
+    border: solid 0px;
+    border-radius: 8px;
+    height: 500px;
+    width:250px;
+    position: absolute;
+    right: 5%;
+    top:30px;
+}
+img:nth-child(2){
+    border: solid 0px;
+    border-radius: 8px;
+    height: 500px;
+    width:250px;
+    position: absolute;
+    right: 25%;
+    top:30px;
+}
+img:nth-child(3){
+    border: solid 0px;
+    border-radius: 8px;
+    height: 500px;
+    width:250px;
+    position: absolute;
+    right: 45%;
+    top:30px;
+}
+section h1:nth-child(4){
+    width: 350px;
+    position: absolute;
+    font-size: 70px;
+    color: white;
+    font-family: 'Cormorant Upright', serif;
+    left: 5%;
+    top:40px;
+}
+section p:nth-child(5){
+    color: orange;
+    font-family: 'Cormorant Upright', serif;
+    position: absolute;
+    left: 5%;
+    top:350px;
+}
+span{
+    letter-spacing: -1px;
+    padding-right: 10px;
+}
+section p:nth-child(6){
+    color: #B3AFAC;
+    position: absolute;
+    top: 515%;
+    left: 39%;
+    font-size: 1.2em;
+    font-family: 'Cormorant Upright', serif;
+}
+section p:nth-child(7){
+    color: black;
+    position: absolute;
+    top: 511%;
+    left: 59%;
+    font-size: 1.3em;
+    font-weight: 900;
+    font-family: 'Cormorant Upright', serif;
+}
+section p:nth-child(8){
+    color: #B3AFAC;
+    position: absolute;
+    top: 511%;
+    left: 79%;
+    font-size: 1.3em;
+    font-family: 'Cormorant Upright', serif;
+}
+footer{
+    top: 370px;
+    position: relative;
+    height: 175px;
+}
+footer div:first-child{
+    border: solid 2px orange;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: #B3AFAC;
+    text-align: center;
+    font-size: 20px;
+    padding: 14px 8px 0;
+    position: absolute;
+    bottom: 0;
+    right: 90px;
+    color: orange;
+}
+footer div:last-child{
+    border: solid 2px #B3AFAC;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: #B3AFAC;
+    text-align: center;
+    font-size: 20px;
+    padding: 14px 8px 0;
+    position: absolute;
+    bottom: 0;
+    right: 190px;
+    color: #B3AFAC;
+}
